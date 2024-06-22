@@ -1,0 +1,9 @@
+# Please insure that your custom_dataset are put in same parent dir with YOLOv6_DIR
+train: /content/drive/MyDrive/metal_data/train # train images
+val: /content/drive/MyDrive/metal_data/val # test images (optional)
+
+# whether it is coco dataset, only coco dataset should be set to True.
+is_coco: True
+# Classes
+nc: 4  # number of classes
+names: ['crack', 'pinhole', 'shrinkage', 'undercut']  # class names
